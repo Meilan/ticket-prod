@@ -128,6 +128,8 @@ const TicketForm = ({ ticket }: Props) => {
 					</Button>
 				</form>
 			</Form>
+
+			<p className='text-destructive mt-6'>{error}</p>
 		</div>
 	);
 };
