@@ -1,5 +1,5 @@
 -- AlterTable
-ALTER TABLE `ticket` ADD COLUMN `assignedToUserId` INTEGER NULL;
+ALTER TABLE `Ticket` ADD COLUMN `assignedToUserId` INTEGER NULL;
 
 -- CreateTable
 CREATE TABLE `User` (
